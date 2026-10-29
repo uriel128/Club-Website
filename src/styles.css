@@ -319,15 +319,15 @@ section[id] {
   align-self: stretch;
   min-height: 530px;
   max-height: 630px;
-  background: #1b563b;
+  background: var(--gold);
   border-radius: 12px;
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  color: #fffdf3;
+  color: var(--deep);
   background-image: radial-gradient(
     ellipse at 20% 40%,
-    #27694b 0%,
+    #ffc64b 0%,
     transparent 65%
   );
 }
@@ -341,14 +341,14 @@ section[id] {
   align-items: center;
   letter-spacing: 0.16em;
   font-size: 8px;
-  color: #e0e8d8;
+  color: var(--deep);
 }
 .art-plus {
   font-size: 22px;
   font-weight: 300;
 }
 .orbit {
-  border: 1px solid #fff7d71b;
+  border: 1px solid #1956371f;
   position: absolute;
   border-radius: 50%;
   width: 580px;
@@ -375,10 +375,10 @@ section[id] {
   position: absolute;
   width: 100%;
   height: 90px;
-  background: var(--gold);
+  background: var(--green);
   box-shadow:
-    inset 0 4px 5px #ffe48480,
-    inset 0 -7px 5px #c68b18;
+    inset 0 4px 5px #4e856180,
+    inset 0 -7px 5px #103e28;
   transform: skewY(3deg);
 }
 .layer-one {
@@ -395,7 +395,7 @@ section[id] {
 }
 .sparkle {
   position: absolute;
-  color: #c5d6ac;
+  color: var(--green);
   font-size: 60px;
   font-weight: 200;
 }
@@ -408,7 +408,7 @@ section[id] {
   right: 30px;
   top: 199px;
   font-size: 34px;
-  color: var(--gold);
+  color: var(--green);
 }
 .art-label {
   position: absolute;
@@ -487,16 +487,16 @@ section[id] {
   justify-content: space-between;
   font-size: 10px;
   line-height: 1.7;
-  color: #cbdacb;
+  color: var(--deep);
 }
 .art-bottom strong {
   font-weight: 450;
-  color: #f6f8e9;
+  color: var(--deep);
 }
 .fsc-seal {
   width: 73px;
   height: 73px;
-  border: 1px solid #d2dab87c;
+  border: 1px solid #19563766;
   border-radius: 50%;
   font-size: 25px;
   font-family: "Manrope Variable", sans-serif;
@@ -507,13 +507,13 @@ section[id] {
   justify-content: center;
   line-height: 1.1;
   transform: rotate(13deg);
-  color: var(--gold);
+  color: var(--green);
 }
 .fsc-seal > span {
   font-size: 4.5px;
   letter-spacing: 1px;
   margin-top: 7px;
-  color: #e1e6cf;
+  color: var(--deep);
 }
 .values-strip {
   background: var(--gold);
